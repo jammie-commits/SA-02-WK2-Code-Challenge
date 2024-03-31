@@ -1,4 +1,4 @@
-// Loop between characters
+// Loop in between characters
 function changeCase(str) {
     return str.split('').map(char => {
       // Convert lowercase to uppercase & uppercase to lowercase
@@ -10,5 +10,5 @@ function changeCase(str) {
   
 // output
   const text = "This is Code Challenge One";
-  const convertText = changeCase(text);
-  console.log(convertText); 
+  const convertedText = changeCase(text);
+  console.log(convertedText); 
