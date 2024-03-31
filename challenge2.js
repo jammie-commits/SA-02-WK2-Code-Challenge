@@ -11,6 +11,6 @@ function getArray(begin, end) {
 // output
   const beginNum = 50;
   const endNum = 100;
-  const numberArray = getArray(beginNum, endNum);
-  console.log(numberArray); 
+  const numbersArray = getArray(beginNum, endNum);
+  console.log(numbersArray); 
   
